@@ -1,0 +1,24 @@
+# Thanks to: https://gist.github.com/jdbartlett/444295
+
+#Ignore everying in the root except "public" director
+/*
+!public/
+!.gitignore
+
+# Ignore everything in the root except the "wp-content" directory.
+public/*
+!public/wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins" and "themes" directories.
+public/wp-content/*
+!public/wp-content/plugins/
+!public/wp-content/themes/
+
+# Ignore everything in the "plugins" directory, except the plugins you specify
+public/wp-content/plugins/*
+# !public/wp-content/plugins/my-single-file-plugin.php
+# !public/wp-content/plugins/my-directory-plugin/
+
+# Ignore everything in the "themes" directory, except the themes you specify
+public/wp-content/themes/*
+!public/wp-content/themes/nathanpmyoung/
